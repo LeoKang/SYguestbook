@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.zerock.guestbook.dto.GuestbookDTO;
-import org.zerock.guestbook.entity.Guestbook;
 
 @SpringBootTest
 public class GuestbookServiceTests {
