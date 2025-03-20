@@ -8,7 +8,7 @@ import org.zerock.guestbook.entity.Guestbook;
 public interface GuestbookService {
     Long register(GuestbookDTO dto);
 
-	PageResultDTO<GuestbookDTO, Guestbook> getList(PageRequestDTO pageRequestDTO);
+    PageResultDTO<GuestbookDTO, Guestbook> getList(PageRequestDTO pageRequestDTO);
 
     GuestbookDTO read(Long gno);
 
